@@ -103,7 +103,7 @@ DEBUG = MIRROR
 DATABASES = {
     'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME':   'praktomat_2',
+            'NAME':   'praktomat_default',
 			'USER':   'praktomat',
 			'PASSWORD': 'praktoPW',
 			'HOST': '132.199.249.82',
