@@ -12,50 +12,12 @@ PRAKTOMAT_PATH = dirname(dirname(dirname(__file__)))
 
 PRAKTOMAT_ID = basename(dirname(PRAKTOMAT_PATH))
 
-match = re.match(r'''
-	(?:praktomat_)?
-	(?P<algo1>algo1_)?
-	(?P<cram>cram_)?
-	(?P<birap>birap_)?
-	(?P<tba>tba_)?
-	(?P<mlfds>mlfds_)?
-	(?P<pp>pp_)?
-	(?P<iimb>iimb_)?
-	(?P<year>\d+)_
-	(?P<semester>WS|SS)
-	(?P<abschluss>_Abschluss)?
-	(?P<mirror>_Mirror)?
-	''', PRAKTOMAT_ID, flags=re.VERBOSE)
-if match:
-	if match.group('adp') is not None:
-		SITE_NAME = 'Praktomat Lehrstuhl Kesdogan ADP '
-	elif match.group('oop') is not None:
-		SITE_NAME = 'Praktomat Lehrstuhl Kesdogan OOP '
-	else:
-		SITE_NAME = 'Programmieren '
-
-	if match.group('abschluss'):
-		SITE_NAME += "Abschlussaufgaben "
-
-	year = int(match.group('year'))
-	if match.group('semester') == "WS":
-		SITE_NAME += "Wintersemester %d/%d" % (year, year+1)
-	else:
-		SITE_NAME += "Sommersemester %d" % year
-
-	if match.group('mirror') is not None:
-		SITE_NAME += " (Mirror)"
-		MIRROR = True
-	else:
-		MIRROR = False
-else:
-	raise NotImplementedError("Autoconfig for PRAKTOMAT_ID %s not possible", PRAKTOMAT_ID)
-
+SITE_NAME = 'Praktomat Lehrstuhl Kesdogan'
 
 # The URL where this site is reachable. 'http://localhost:8000/' in case of the
 # developmentserver.
 BASE_HOST = 'https://praktomat.itsec.ur.de'
-BASE_PATH = '/' + PRAKTOMAT_ID + '/'
+BASE_PATH = '/'
 
 ALLOWED_HOSTS = [ '*' ]
 
