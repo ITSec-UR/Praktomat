@@ -12,6 +12,7 @@ PRAKTOMAT_PATH = dirname(dirname(dirname(__file__)))
 
 PRAKTOMAT_ID = basename(dirname(PRAKTOMAT_PATH))
 
+MIRROR = False
 SITE_NAME = 'Praktomat Lehrstuhl Kesdogan'
 
 # The URL where this site is reachable. 'http://localhost:8000/' in case of the
@@ -38,10 +39,7 @@ TEST_TIMEOUT=180
 # Example: "/home/media/media.lawrence.com/"
 UPLOAD_ROOT = join(dirname(PRAKTOMAT_PATH), "PraktomatSupport/")
 
-if MIRROR:
-	SANDBOX_DIR = join('/srv/praktomat/sandbox_Mirror/', PRAKTOMAT_ID)
-else:
-	SANDBOX_DIR = join('/srv/praktomat/sandbox/', PRAKTOMAT_ID)
+SANDBOX_DIR = join('/srv/praktomat/sandbox/', PRAKTOMAT_ID)
 
 ADMINS = [
   ('Praktomat', 'kesdogan.technik@ur.de')
@@ -50,13 +48,10 @@ ADMINS = [
 SERVER_EMAIL = 'kesdogan.technik@ur.de'
 
 
-if MIRROR:
-	EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-	EMAIL_FILE_PATH = join(UPLOAD_ROOT, "sent-mails")
-else:
-	EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-	EMAIL_HOST = "localhost"
-	EMAIL_PORT = 25
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+MAIL_HOST = "localhost"
+EMAIL_PORT = 25
 
 DEFAULT_FROM_EMAIL = "praktomat@itsec.ur.de"
 
