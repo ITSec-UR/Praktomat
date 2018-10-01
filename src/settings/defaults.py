@@ -279,7 +279,7 @@ def load_defaults(settings):
     # a password:
     # "_www    		ALL=(tester)NOPASSWD:ALL"
     # "developer	ALL=(tester)NOPASSWD:ALL"
-    d.USEPRAKTOMATTESTER = False
+    d.USEPRAKTOMATTESTER = True
  
     # Alternatively: Run everything in a docker instance, to provide higher
     # insulation. Should not be used together iwth USEPRAKTOMATTESTER.
