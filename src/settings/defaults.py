@@ -42,7 +42,7 @@ def load_defaults(settings):
     # are inappropriate for public consumption. File paths, configuration options, 
     # and the like all give attackers extra information about your server.
     # Never deploy a site into production with DEBUG turned on.
-    d.DEBUG = True
+    d.DEBUG = False
 
     # Local time zone for this installation. Choices can be found here:
     # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -190,7 +190,7 @@ def load_defaults(settings):
                 # A boolean that turns on/off template debug mode. If this is True, the fancy
                 # error page will display a detailed report for any TemplateSyntaxError.
                 # Note that Django only displays fancy error pages if DEBUG is True.
-                'debug': True
+                'debug': False
             },
         },
     ]
