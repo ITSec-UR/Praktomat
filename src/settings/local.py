@@ -55,7 +55,7 @@ EMAIL_PORT = 25
 
 DEFAULT_FROM_EMAIL = "praktomat@itsec.ur.de"
 
-DEBUG = MIRROR
+DEBUG = False
 
 DATABASES = {
     'default': {
