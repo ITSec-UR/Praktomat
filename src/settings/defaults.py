@@ -312,7 +312,7 @@ def load_defaults(settings):
     }
     
     # URL to the MOTD page which will be shown on login page and task list
-    d.SYSADMIN_MOTD_URL = None
+    #d.SYSADMIN_MOTD_URL = None
 
     # Set this to False to disable registration via the website, e.g. when
     # Single Sign On is used
