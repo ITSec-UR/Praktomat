@@ -40,7 +40,7 @@ TEST_TIMEOUT=180
 # Example: "/home/media/media.lawrence.com/"
 UPLOAD_ROOT = join(dirname(PRAKTOMAT_PATH), "PraktomatSupport/")
 
-SANDBOX_DIR = join('/srv/praktomat/sandbox/', PRAKTOMAT_ID)
+SANDBOX_DIR = join('/var/www/Praktomat/PraktomatSupport/SolutionSandbox/', PRAKTOMAT_ID)
 
 ADMINS = [
   ('Praktomat', 'kesdogan.technik@ur.de')
