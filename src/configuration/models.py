@@ -12,7 +12,7 @@ class Settings(models.Model):
             models.CharField(
                 max_length=200,
                 blank=True,
-                default="*@*",
+                default=".+@.+",
                 help_text="Regular expression used to check the email domain of registering users."
             )
 
