@@ -50,10 +50,10 @@ SERVER_EMAIL = 'kesdogan.technik@ur.de'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-MAIL_HOST = "localhost"
+MAIL_HOST = "mail.uni-regensburg.de"
 EMAIL_PORT = 25
 
-DEFAULT_FROM_EMAIL = "praktomat@itsec.ur.de"
+DEFAULT_FROM_EMAIL = "kesdogan.technik@ur.de"
 
 DEBUG = False
 
