@@ -347,7 +347,9 @@ non_ascii_letters            = ascii_without(string.ascii_letters)
 non_ascii_letters_and_digits = ascii_without(string.ascii_letters + string.digits)
 
 def path_for_user(user):
-	return user.get_full_name()+'-'+str(user.mat_number)+'-'+str(user.id)
+	filtered_user = re.sub(r'[^\x00-\x7f]',r'', user.get_full_name())
+        return filtered_user +'-'+str(user.mat_number)+'-'+str(user.id)
+	#return user.get_full_name()+'-'+str(user.mat_number)+'-'+str(user.id)
 
 def path_for_task(task):
 	return task.title
