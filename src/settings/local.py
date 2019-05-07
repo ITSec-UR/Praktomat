@@ -84,7 +84,7 @@ USEPRAKTOMATTESTER = True
 USESAFEDOCKER = False
 
 # Various extra files and versions
-CHECKSTYLEALLJAR = '/srv/praktomat/contrib/checkstyle-5.7-all.jar'
+CHECKSTYLEALLJAR = '/srv/praktomat/contrib/checkstyle.jar'
 JPLAGJAR = '/srv/praktomat/contrib/jplag.jar'
 #JAVA_BINARY = 'javac-sun-1.7'
 #JVM = 'java-sun-1.7'
