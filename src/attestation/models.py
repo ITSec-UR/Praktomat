@@ -72,7 +72,7 @@ class Attestation(models.Model):
                     self.solution.author, # student
                     self.author,          # attestation writer
                     by,                   # usually attestation writer, may be trainer
-                    ] + list(User.objects.filter(groups__name="Trainer"))  # and, for withdrawals, all trainers
+                    ] #+ list(User.objects.filter(groups__name="Trainer"))  # and, for withdrawals, all trainers
                     )
                 emails = [u.email for u in recps if u.email]
 
