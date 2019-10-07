@@ -7,6 +7,7 @@
 
 from os.path import join, dirname, basename
 import re
+import os
 
 # PRAKTOMAT_PATH = dirname(dirname(dirname(__file__)))
 PRAKTOMAT_PATH = '/var/www/Praktomat/'
@@ -60,11 +61,11 @@ DEBUG = False
 DATABASES = {
     'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME':   'PG_DB',
-            'USER':   'PG_USER',
-            'PASSWORD': 'PG_PW',
-            'HOST': 'PG_HOST',
-            'PORT': 'PG_PORT',
+            'NAME':   os.environ['PG_DB'],
+            'USER':   os.environ['PG_USER'],
+            'PASSWORD': os.environ['PG_PW'],
+            'HOST': os.environ['PG_HOST'],
+            'PORT': os.environ['PG_PORT'],
     }
 }
 
