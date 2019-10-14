@@ -8,6 +8,7 @@ no_defaults = [ "SITE_NAME", "PRAKTOMAT_ID", "BASE_HOST", "BASE_PATH", "UPLOAD_R
 import os
 from os.path import dirname, join
 import utilities.log_filter
+import collections
 
 def load_defaults(settings):
     missing = [ v for v in no_defaults if v not in settings]
@@ -210,7 +211,7 @@ def load_defaults(settings):
     # the site manager(s).
     d.DEFAULT_FROM_EMAIL = "kesdogan.technik@ur.de"
     d.EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    d.EMAIL_HOST = "mail.uni-regensburg.de"
+    d.EMAIL_HOST = "smtp.uni-regensburg.de"
     d.EMAIL_PORT = 25
     d.EMAIL_HOST_USER = ""
     d.EMAIL_HOST_PASSWORD = ""
@@ -265,7 +266,6 @@ def load_defaults(settings):
     d.CHECKSTYLEALLJAR = '/srv/praktomat/contrib/checkstyle.jar'
     d.JUNIT38='junit'
     d.JAVA_LIBS = { 'junit3' : '/usr/share/java/junit.jar', 'junit4' : '/usr/share/java/junit4.jar' }
-    d.JCFDUMP='jcf-dump'
     d.JAVAP='javap'
     d.GHC='ghc'
     d.SCALA='scala'
