@@ -211,7 +211,7 @@ def load_defaults(settings):
     # the site manager(s).
     d.DEFAULT_FROM_EMAIL = "kesdogan.technik@ur.de"
     d.EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    d.EMAIL_HOST = "smtp.uni-regensburg.de"
+    d.EMAIL_HOST = "mx.uni-regensburg.de"
     d.EMAIL_PORT = 25
     d.EMAIL_HOST_USER = ""
     d.EMAIL_HOST_PASSWORD = ""
