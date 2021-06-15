@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="850606bc-14d6-4447-b122-7464dba8bed2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/frameworks/jquery-ui/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accounts/migrations/0004_typo_corrections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accounts/migrations/0005_on_delete_set_null.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accounts/migrations/0006_limit_choices_to.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accounts/migrations/0007_custom_user_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accounts/migrations/0008_accept_disclaimer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/attestation/migrations/0003_typo_corrections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/attestation/migrations/0004_auto_20190408_1427.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/attestation/migrations/0005_on_delete_set_null.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/attestation/migrations/0006_limit_choices_to.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checker/migrations/0010_typo_corrections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checker/migrations/0011_auto_20190327_1046.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checker/migrations/0012_auto_20190408_1427.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configuration/migrations/0008_typo_corrections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configuration/migrations/0009_auto_20190408_1427.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configuration/migrations/0010_accept_disclaimer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/migrations/0004_typo_corrections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/migrations/0005_auto_20190408_1427.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solutions/migrations/0006_remove_tar_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/migrations/0006_typo_corrections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/migrations/0007_auto_20190408_1427.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/migrations/0008_on_delete_set_null.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/admin/accounts/user/import_user_texts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/registration/accept_disclaimer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-image/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_1/CreateFileChecker/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_1/CreateFileChecker/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuSetup/default.exp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuSetup/default.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuTester/erweitert.exp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuTester/erweitert.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuTester/geheim.exp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuTester/geheim.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuTester/gehoim.exp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuTester/gehoim.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuTester/oeffentlich.exp" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PraktomatSupport/CheckerFiles/Task_3/DejaGnuTester/oeffentlich.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Tasks/GGT/solutions/GgT.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Tasks/GGT/solutions/GgT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Tasks/GGT/solutions/javagently/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Tasks/GGT/solutions/javagently/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/certificates/privkey.pem" beforeDir="false" afterPath="$PROJECT_DIR$/examples/certificates/privkey.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/certificates/signer.pem" beforeDir="false" afterPath="$PROJECT_DIR$/examples/certificates/signer.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/frameworks/jquery.formset/jquery.formset.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/frameworks/jquery.formset/jquery.formset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/frameworks/jquery.formset/jquery.formset.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/frameworks/jquery.formset/jquery.formset.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/frameworks/jquery/images" beforeDir="false" afterPath="$PROJECT_DIR$/media/frameworks/jquery/images" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/frameworks/jquery/jquery-ui-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/media/frameworks/jquery/jquery-ui-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/frameworks/jquery/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/frameworks/jquery/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/frameworks/tiny_mce/plugins/syntaxhl/dialog.htm" beforeDir="false" afterPath="$PROJECT_DIR$/media/frameworks/tiny_mce/plugins/syntaxhl/dialog.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/frameworks/tiny_mce/plugins/syntaxhl/langs/zh_dlg.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/frameworks/tiny_mce/plugins/syntaxhl/langs/zh_dlg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/script/rating_scale_sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/media/script/rating_scale_sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/migrations/0002_add_groups.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/migrations/0002_add_groups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/migrations/0003_add_coordinator_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/migrations/0003_add_coordinator_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/shib_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/shib_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attestation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/attestation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attestation/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/attestation/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attestation/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/attestation/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attestation/migrations/0002_auto_20151006_1416.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/attestation/migrations/0002_auto_20151006_1416.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attestation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/attestation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attestation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/attestation/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/attestation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/attestation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/basemodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/basemodels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/AnonymityChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/AnonymityChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/CheckStyleChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/CheckStyleChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/CreateFileChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/CreateFileChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/DejaGnu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/DejaGnu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/HaskellTestFrameWorkChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/HaskellTestFrameWorkChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/InterfaceChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/InterfaceChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/IsabelleChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/IsabelleChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/JUnitChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/JUnitChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/KeepFileChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/KeepFileChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/LineCounter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/LineCounter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/LineWidthChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/LineWidthChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/RChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/RChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/ScriptChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/ScriptChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/TextChecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/TextChecker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/checker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/checker/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/Builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/Builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/CBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/CBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/CXXBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/CXXBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/FortranBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/FortranBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/HaskellBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/HaskellBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/JavaBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/JavaBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/JavaGCCBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/JavaGCCBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/ScalaBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/ScalaBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/compiler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/compiler/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0002_auto_20151006_1416.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0002_auto_20151006_1416.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0003_isabellechecker_trusted_theories.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0003_isabellechecker_trusted_theories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0004_textchecker_and_scalabuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0004_textchecker_and_scalabuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0005_auto_20170404_1810.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0005_auto_20170404_1810.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0006_auto_20170405_1332.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0006_auto_20170405_1332.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0007_auto_20170429_2022.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0007_auto_20170429_2022.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0008_auto_20171012_1224.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0008_auto_20171012_1224.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/migrations/0009_isabelle_checker_trusted_to_additional_theories.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/migrations/0009_isabelle_checker_trusted_to_additional_theories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/scripts/junit.policy" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/scripts/junit.policy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checker/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checker/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/migrations/0002_initial_configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/migrations/0002_initial_configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/migrations/0003_settings_attestation_allow_run_checkers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/migrations/0003_settings_attestation_allow_run_checkers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/migrations/0004_settings_jplag_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/migrations/0004_settings_jplag_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/migrations/0005_settings_inactive_chunk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/migrations/0005_settings_inactive_chunk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/migrations/0006_settings_warning_message_chunk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/migrations/0006_settings_warning_message_chunk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/migrations/0007_settings_final_grades_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/migrations/0007_settings_final_grades_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/templatetags/chunks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/templatetags/chunks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configuration/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/configuration/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context_processors/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/context_processors/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manage-local.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/manage-local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sessionprofile/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sessionprofile/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sessionprofile/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sessionprofile/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings/defaults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/devel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings/devel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/templatetags/motd.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings/templatetags/motd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/migrations/0002_solution_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/migrations/0002_solution_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/migrations/0003_auto_20151120_1608.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/migrations/0003_auto_20151120_1608.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/templatetags/highlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/templatetags/highlight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutions/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/migrations/0002_task_jplag_up_to_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/migrations/0002_task_jplag_up_to_date.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/migrations/0003_htmlinjector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/migrations/0003_htmlinjector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/migrations/0004_task_warning_threshold.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/migrations/0004_task_warning_threshold.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/migrations/0005_task_ordering.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/migrations/0005_task_ordering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/accounts/user/change_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/accounts/user/change_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/accounts/user/import.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/accounts/user/import.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/accounts/user/import_tutorial_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/accounts/user/import_tutorial_assignment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/attestation/ratingscale/generate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/attestation/ratingscale/generate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/attestation/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/attestation/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/auth/group/import_matriculation_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/auth/group/import_matriculation_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/tasks/stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/tasks/stacked.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/tasks/task/change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/tasks/task/change_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/tasks/task/import.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/tasks/task/import.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/admin/tasks/task/model_solution.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/admin/tasks/task/model_solution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/attestation_already_exists_for_solution.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/attestation_already_exists_for_solution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/attestation_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/attestation_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/attestation_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/attestation_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/attestation_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/attestation_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/attestation_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/attestation_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/rating_export.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/rating_export.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/rating_overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/rating_overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/statistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/statistics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/attestation/tutorial_overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/attestation/tutorial_overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/checker/checker/haskell_test_framework_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/checker/checker/haskell_test_framework_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/checker/compiler/builder_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/checker/compiler/builder_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/checker/compiler/java_builder_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/checker/compiler/java_builder_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/checker/compiler/scala_builder_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/checker/compiler/scala_builder_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/forms/form_snippet.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/forms/form_snippet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/forms/formset_as_div.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/forms/formset_as_div.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/registration_activated.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/registration_activated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/registration_activation_allowed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/registration_activation_allowed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/registration_change.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/registration_change.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/registration_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/registration_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/registration_email_manual_to_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/registration_email_manual_to_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/registration_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/registration_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/shib_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/shib_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/shib_hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/shib_hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/registration/shib_not_allowed.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/registration/shib_not_allowed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/solutions/checker_result_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/solutions/checker_result_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/solutions/checker_results_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/solutions/checker_results_inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/solutions/solution_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/solutions/solution_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/solutions/solution_files_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/solutions/solution_files_inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/solutions/solution_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/solutions/solution_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/solutions/solution_list_inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/solutions/solution_list_inline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/solutions/solution_test_upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/solutions/solution_test_upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/solutions/submission_confirmation_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/solutions/submission_confirmation_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/tasks/task_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/tasks/task_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/TestSuite.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/TestSuite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/activate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/activate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/exceptionlogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/exceptionlogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/file_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/file_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/isar_lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/isar_lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/management/commands/delete_unactivated_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/management/commands/delete_unactivated_users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/management/commands/install_demo_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/management/commands/install_demo_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/management/commands/makesuperuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/management/commands/makesuperuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/management/commands/update_model_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/management/commands/update_model_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/safeexec.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/safeexec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsgi/praktomat.wsgi" beforeDir="false" afterPath="$PROJECT_DIR$/wsgi/praktomat.wsgi" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tygfJQ9mYkZM4ywgfhjPpYMcFQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Markus\Google Drive\Uni\Forschungsgruppe Sensordaten\GIT\Praktomat" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="850606bc-14d6-4447-b122-7464dba8bed2" name="Default Changelist" comment="" />
+      <created>1623746845589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623746845589</updated>
+      <workItem from="1623746848442" duration="957000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
