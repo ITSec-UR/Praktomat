@@ -22,18 +22,18 @@ SITE_NAME = 'Praktomat Lehrstuhl Kesdogan'
 BASE_HOST = 'https://praktomat.itsec.ur.de'
 BASE_PATH = '/'
 
-ALLOWED_HOSTS = [ '*' ]
+ALLOWED_HOSTS = ['*']
 
 # URL to use when referring to static files.
 STATIC_URL = BASE_PATH + 'static/'
 
 STATIC_ROOT = join(dirname(PRAKTOMAT_PATH), "static")
 
-TEST_MAXLOGSIZE=1000
+TEST_MAXLOGSIZE = 1000
 
-TEST_MAXFILESIZE=1000
+TEST_MAXFILESIZE = 1000
 
-TEST_TIMEOUT=180
+TEST_TIMEOUT = 180
 
 # Absolute path to the directory that shall hold all uploaded files as well as
 # files created at runtime.
@@ -44,14 +44,13 @@ UPLOAD_ROOT = join(dirname(PRAKTOMAT_PATH), "PraktomatSupport/")
 SANDBOX_DIR = join('/var/www/Praktomat/PraktomatSupport/SolutionSandbox/', PRAKTOMAT_ID)
 
 ADMINS = [
-  ('Praktomat', 'kesdogan.technik@ur.de')
+    ('Praktomat', 'kesdogan.technik@ur.de')
 ]
 
 SERVER_EMAIL = 'kesdogan.technik@ur.de'
 
-
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-MAIL_HOST = "mx.uni-regensburg.de" # mail.uni-regensburg.de
+MAIL_HOST = "mx.uni-regensburg.de"  # mail.uni-regensburg.de
 EMAIL_PORT = 25
 
 DEFAULT_FROM_EMAIL = "kesdogan.technik@ur.de"
@@ -60,12 +59,12 @@ DEBUG = False
 
 DATABASES = {
     'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME':   'PG_DB',
-            'USER':   'PG_USER',
-            'PASSWORD': 'PG_PW',
-            'HOST': 'PG_HOST',
-            'PORT': 'PG_PORT',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'PG_DB',
+        'USER': 'PG_USER',
+        'PASSWORD': 'PG_PW',
+        'HOST': 'PG_HOST',
+        'PORT': 'PG_PORT',
     }
 }
 
@@ -76,7 +75,7 @@ PRIVATE_KEY = '/srv/praktomat/mailsign/signer_key.pem'
 SHIB_ENABLED = False
 REGISTRATION_POSSIBLE = True
 
-#SYSADMIN_MOTD_URL = "https://praktomat.itsec.ur.de/sysadmin_motd.html"
+# SYSADMIN_MOTD_URL = "https://praktomat.itsec.ur.de/sysadmin_motd.html"
 
 # Use a dedicated user to test submissions
 USEPRAKTOMATTESTER = True
@@ -87,12 +86,13 @@ USESAFEDOCKER = False
 # Various extra files and versions
 CHECKSTYLEALLJAR = '/srv/praktomat/contrib/checkstyle.jar'
 JPLAGJAR = '/srv/praktomat/contrib/jplag.jar'
-#JAVA_BINARY = 'javac-sun-1.7'
-#JVM = 'java-sun-1.7'
+# JAVA_BINARY = 'javac-sun-1.7'
+# JVM = 'java-sun-1.7'
 
 # Our VM has 4 cores, so lets try to use them
 NUMBER_OF_TASKS_TO_BE_CHECKED_IN_PARALLEL = 6
 
 # Finally load defaults for missing setttings.
 import defaults
+
 defaults.load_defaults(globals())
